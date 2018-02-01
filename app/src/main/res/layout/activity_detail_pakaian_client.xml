@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.pangestubagas.com.bosanbaiknew.DetailPakaianClient">
+
+
+    <Button
+        android:id="@+id/btnCart"
+        android:drawableStart="@mipmap/ic_cart_white"
+        android:drawableEnd="@mipmap/ic_cart_white"
+        android:text="Add to Cart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:drawableLeft="@mipmap/ic_cart_white"
+        android:drawableRight="@mipmap/ic_cart_white" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Pakaian"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+    <TextView
+        android:id="@+id/txtNmaPakaian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="196dp"
+        android:text="Nama Pakaian                  : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/txtKategori"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Kategori                             : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtNmaPakaian"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="Harga                                 : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtKategori"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Deskripsi                            : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="16dp" />
+
+    <Spinner
+        android:id="@+id/spinnerUkuranCL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="56dp"
+        android:entries="@array/ukuran"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="16dp"></Spinner>
+
+    <TextView
+        android:id="@+id/txtNamaPakaianCL"
+        android:layout_width="192dp"
+        android:layout_height="17dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="244dp"
+        android:text="Nama Pakaian"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtNmaPakaian"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtKategoriCL"
+        android:layout_width="191dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Kategori"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/txtKategori"
+        app:layout_constraintTop_toBottomOf="@+id/txtNamaPakaianCL"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtHargaCL"
+        android:layout_width="192dp"
+        android:layout_height="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Harga"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView11"
+        app:layout_constraintTop_toBottomOf="@+id/txtKategoriCL"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtDeskripsiCL"
+        android:layout_width="193dp"
+        android:layout_height="58dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Deskripsi"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/textView12"
+        app:layout_constraintTop_toBottomOf="@+id/txtHargaCL"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="8dp"
+        android:text="Jumlah    : "
+        app:layout_constraintStart_toEndOf="@+id/spinnerUkuranCL"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeskripsiCL"
+        tools:ignore="MissingConstraints"
+        android:layout_marginLeft="128dp" />
+
+    <EditText
+        android:id="@+id/txtJumlahCL"
+        android:layout_width="63dp"
+        android:layout_height="37dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:hint="jumlah"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.927"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toBottomOf="@+id/txtDeskripsiCL"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

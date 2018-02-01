@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1036480172408",
+    "firebase_url": "https://bosanbaiknew2.firebaseio.com",
+    "project_id": "bosanbaiknew2",
+    "storage_bucket": "bosanbaiknew2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1036480172408:android:7b5dd89f2aa02413",
+        "android_client_info": {
+          "package_name": "project.pangestubagas.com.bosanbaiknew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1036480172408-pdlo3da6cpfc7idp4fa4dtsgto0jiqbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.pangestubagas.com.bosanbaiknew",
+            "certificate_hash": "78a3cc538aae477a6fbf7e70d7b77ef06883f8a7"
+          }
+        },
+        {
+          "client_id": "1036480172408-lcn2nqgirdqn11v771kkqdmdvqd1teh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSlB4pPPF2t6zY5QYElCmaXb95d0PDP20"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1036480172408-lcn2nqgirdqn11v771kkqdmdvqd1teh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

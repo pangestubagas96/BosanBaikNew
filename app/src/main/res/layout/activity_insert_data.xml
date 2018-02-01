@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.pangestubagas.com.bosanbaiknew.InsertData">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Masukkan DataDiri"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+    <EditText
+        android:id="@+id/ETNama"
+        android:layout_below="@+id/judul"
+        android:layout_marginTop="125dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Masukkan Nama"
+        />
+    <EditText
+        android:id="@+id/ETNoHp"
+        android:layout_below="@+id/ETNama"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Masukkan No. Hp"
+        />
+    <EditText
+        android:id="@+id/ETAlamat"
+        android:layout_below="@+id/ETNoHp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:hint="Masukkan Alamat"
+        />
+    <Button
+        android:id="@+id/btnTambahDataPelanggan"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Konfirmasi Pembayaran"
+        android:paddingBottom="10dp"/>
+</RelativeLayout>

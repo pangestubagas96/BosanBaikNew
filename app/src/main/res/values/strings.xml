@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">BosanBaikNew</string>
+
+    <array name="kategori">
+        <item>Kaos</item>
+        <item>Jaket</item>
+        <item>Topi</item>
+    </array>
+    <array name="ukuran">
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+    </array>
+    <string name="title_activity_drawer">DrawerActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
